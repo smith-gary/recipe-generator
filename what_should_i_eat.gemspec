@@ -1,14 +1,14 @@
 # frozen_string_literal: true
 
 require_relative "lib/what_should_i_eat/version"
-require_relative 'lib/what_should_i_eat/printing'
+require_relative "lib/what_should_i_eat/printing"
 
 Gem::Specification.new do |spec|
   spec.name          = "what_should_i_eat"
   spec.version       = WhatShouldIEat::VERSION
   spec.authors       = ["Gary S."]
   spec.email         = ["69396671+tacgee@users.noreply.github.com"]
-
+  
   spec.summary       = "Fetches a recipe from edamame recipe website."
   spec.description   = "Uses http dependency to fetch the recipe from the specific site."
   spec.homepage      = "https://github.com/tacgee/recipe-generator"
